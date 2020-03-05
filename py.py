@@ -25,8 +25,7 @@ def smallesteSubstr_maxDistictChar(str):
 		for j in range(n): 
 			subs = str[i:j] 
 			subs_lenght = len(subs) 
-			sub_distinct_char = distinct_Max(subs, 
-												subs_lenght) 
+			sub_distinct_char = distinct_Max(subs, subs_lenght) 
 			
 			if (subs_lenght < minl and
 				max_distinct == sub_distinct_char): 
